@@ -1,0 +1,18 @@
+server:
+    port: 9876
+    ssl:
+        key-alias: imps-config-server
+        key-store: classpath:ssl.pfx
+        key-store-password: imps-config-server
+        key-store-type: PKCS12
+        enabled: true
+spring:
+    application:
+        name: config-server-test
+    profiles:
+        active: native
+    cloud:
+        config:
+            server:
+                native:
+                    searchLocations: 'file:./configurations/'
