@@ -1,4 +1,4 @@
-package com.panamax.imps;
+package com.config.client;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;

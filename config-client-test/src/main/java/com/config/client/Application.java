@@ -1,4 +1,4 @@
-package com.panamax.imps;
+package com.config.client;
 
 import java.io.IOException;
 import java.sql.SQLException;

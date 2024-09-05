@@ -11,10 +11,10 @@ spring:
             uri: 'https://127.0.0.1:9876/'
             tls:
                 enabled: true
-                trust-store: 'classpath:panamax-truststore.pfx'
+                trust-store: 'classpath:truststore.pfx'
                 trust-store-type: PKCS12
                 trust-store-password: panamax
-                #key-store: 'classpath:panamax-truststore.pfx'
+                #key-store: 'classpath:truststore.pfx'
                 #key-store-type: PKCS12
                 #key-store-password: panamax
                 #key-password: panamax
