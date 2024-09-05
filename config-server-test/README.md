@@ -1,2 +1,2 @@
-# panamax-config-server
+config-server
 Spring Config Server
