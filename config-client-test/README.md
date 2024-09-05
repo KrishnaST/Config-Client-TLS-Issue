@@ -1,2 +1,2 @@
-# panamax-imps-switch
+# imps-switch
 IMPS Switch
